@@ -3,19 +3,19 @@ canvas = document.getElementById("mcanvas");
 ctx = canvas.getContext("2d");
 
 var bg = new Image();
-bg.src = "../Images/LightSand.png";
+bg.src = "Images/LightSand.png";
 
 var crab = [];
 crab.push(new Image());
 crab.push(new Image());
 crab.push(new Image());
-crab[0].src = "../Images/crabOne.png";
-crab[1].src = "../Images/crabTwo.png";
-crab[2].src = "../Images/crabOne.png";
+crab[0].src = "Images/crabOne.png";
+crab[1].src = "Images/crabTwo.png";
+crab[2].src = "Images/crabOne.png";
 var left = false, right = false;
 
 var dasong = new Audio();
-dasong.src = "../Sounds/Sound.mp3";
+dasong.src = "Sounds/Sound.mp3";
 dasong.addEventListener("canplaythrough", function() {
     dasong.play();
 }, false);
@@ -25,7 +25,7 @@ dasong.addEventListener("ended", function() {
     dasong.play();
 
 var grantim = new Image();
-grantim.src = "../Images/GrantCrabRun.png";
+grantim.src = "Images/GrantCrabRun.png";
 
 function toRadians(num) {
     return num * (3.14 / 180);
