@@ -1,0 +1,38 @@
+
+document {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #00FFFF;
+    background-image: url("../Images/Water.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header {
+    padding: 40px;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px;
+    font-size: 20px;
+    background-image: url("../Images/Sand.jpg");
+}
+
+#mcanvas {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    margin-bottom: 0px;
+    padding: 40px;
+    background-color: #00AACC;
+    font-size: 30px;
+}
