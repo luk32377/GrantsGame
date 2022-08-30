@@ -288,6 +288,4 @@ function Update() {
     Render();
 }
 
-document.onload = function(e) {
-    setInterval(Update, 1000 / 30);
-}
+setInterval(Update, 1000 / 30);
