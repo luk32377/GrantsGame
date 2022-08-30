@@ -3,7 +3,7 @@ canvas = document.getElementById("mcanvas");
 ctx = canvas.getContext("2d");
 
 var bg = new Image();
-bg.src = "Images/LightSand.jpg";
+bg.src = "Images/LightSand.png";
 
 var crab = [];
 crab.push(new Image());

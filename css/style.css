@@ -6,7 +6,7 @@ document {
 
 body {
     background-color: #00FFFF;
-    background-image: url("../Images/Water.jpg");
+    background-image: url("../Images/Water.png");
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ header {
 section {
     padding: 40px;
     font-size: 20px;
-    background-image: url("../Images/Sand.jpg");
+    background-image: url("../Images/Sand.png");
 }
 
 #mcanvas {
