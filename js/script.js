@@ -8,8 +8,10 @@ bg.src = "Images/LightSand.png";
 var crab = [];
 crab.push(new Image());
 crab.push(new Image());
+crab.push(new Image());
 crab[0].src = "Images/CrabOne.png";
 crab[1].src = "Images/CrabTwo.png";
+crab[2].src = "Images/CrabOne.png";
 var left = false, right = false;
 
 var dasong = new Audio();
